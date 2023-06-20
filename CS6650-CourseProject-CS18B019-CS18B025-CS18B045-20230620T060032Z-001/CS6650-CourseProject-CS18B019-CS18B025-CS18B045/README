@@ -1,0 +1,11 @@
+The requested deliverables were :
+
+For submission, make a directory containing the following:
+The report_pdf. Clearly explain your problem statement, non-triviality of the problem, and motivation for solving the problem. Next, state your system/experiment design including the specific observation or inferences you intend to make. Third, validate your planned observation with actual results. Please do not “dump” a set of plots without explaining its role in the overall scheme of things. Every plot should have a takeaway point that bolsters your inferences.
+“src” directory with documented code and running instructions. If you have multiple applications, for instance: a mobile app + data analytics code, create multiple directories accordingly.
+“data” directory with sample data that the code can run on. If your data size is too large, provide a link to your data on google drive.
+A presentation of your project (PDF / PPT). Provide a link to your presentation video that you can put on google drive. Note that if you are absolutely unable to provide the presentation video, let me know beforehand; I will try my best to organize a live presentation.
+(Optional) Demo clip for your project.
+
+We have submitted a report, the required src and data directories with instructions included. 
+However, we chose to include a demo clip of the project as part of our presentation, and thus our last two deliverables will be in one video.

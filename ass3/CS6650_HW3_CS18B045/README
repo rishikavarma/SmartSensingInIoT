@@ -1,0 +1,22 @@
+Code contents:
+
+There are 2 code files, both of them are the same code as a .py script and a .ipynb jupyter notebook. Both files consist of python code. The code consists of various aspects of the assignment 3 wherein we explore localisation. Through this code the error heat maps are generated, median and percentile error values are calculated, error cdf is generated and median error histograms are plotted. The maximum median error anchor location is also plotted. All this is done for arbitrarily generated anchor values, corresponding node true locations and range noise all which are stored in the generated csv files.
+
+Methodology to run the code:
+
+The python script can be run using the command
+
+	python3 localistaion.py
+
+The ipynb notebook can be launched by running the command
+
+	jupyter notebook
+
+in terminal and then running the cell directly.
+
+Students I discussed my Homework with:
+
+M Harini Saraswathy
+Roshini Karedla
+Archana Kutumbaka
+

@@ -1,0 +1,23 @@
+Code contents:
+
+The code file is a jupyter notebook in python.
+I have also included a .py file of the same code just in case.
+
+This code has 3 parts. 
+
+The first part analyses each frame of the video and calculates the heartrate every 5 seconds cumulatively (i.e, after the 10th second the algorithm calculates the heartrate using all frames in the 10 seconds) using 2 methods. From each frame we obtain the mean value of red and using the trend of this value from all the frames we find the heart rate. The first method used is by fourier transforming the data and finding the frequency above 1 that has maximum weight. The second method used is by smoothing the data appropriately so that the peaks remaining are given approximately by 1 peak for every pulse, counting the number of peaks and scaling it into bpm. A final value of heartrate given by analysing the entire data is given at the end.
+
+The second part of the code is for observing how the calculated value varies with sample rate (in this case frame rate of the video). To decrease frame rate I selected 1 in f frames so that it decreases by a factor of f. By varying f value the variation in heart rate with sample rate can be observed. In the code I plotted the results for 10 different values of frame rate.  
+
+Similar to the second, the third part of the code is for observing variation of calculated value with resolution of the video. For this I used ffmpeg for decreasing resolution of the video to different values beforehand and used these videos to plot the value of heart rate for various resolutions. Here I plotted the results for 7 different values of resolution. 
+
+Instructions for running the code:
+
+If jupyter notebook is already installed then it must be launched from the respective directory using the 'jupyter-lab' command. 
+
+In the code the first variable is called name and there the value given must be that of the name of the video in the dataset without the file suffix. For eg: If the name of the video is Data1.mp4 then the value of name must be 'Data1'. 
+
+After giving the value of name as required the first cell can be selected and run to get the results.
+
+In case of the .py file, it can be run using the command 'python3 post-process.py'. Here the plots of the third part is obtained after closing the plot obtained from the second part.
+

@@ -1,0 +1,30 @@
+Random true location that is selected: [95  9]
+
+For pure ranges:
+Median error: 0.0
+75th percentile error: 0.0
+95th percentile error: 0.0
+For noisy ranges 0.5:
+Median error: 1.0
+75th percentile error: 1.0
+95th percentile error: 1.4142135623730951
+For noisy ranges 1:
+Median error: 1.4142135623730951
+75th percentile error: 1.4142135623730951
+95th percentile error: 2.23606797749979
+For noisy ranges 2:
+Median error: 2.23606797749979
+75th percentile error: 3.0
+95th percentile error: 4.47213595499958
+
+Anchors with maximum median error in each case:
+[[ 6 15]
+ [91 78]
+ [89 75]]
+[[ 6 15]
+ [91 78]
+ [89 75]]
+[[ 6 15]
+ [91 78]
+ [89 75]]
+
